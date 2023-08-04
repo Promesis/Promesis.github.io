@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "(: Promesis :)"
+title                    : "Promesis :)"
 title_separator          : "-"
-subtitle                 : "向着务实的终极目标前行" # site tagline that appears below site title in masthead
+subtitle                 : "务实即一切" # site tagline that appears below site title in masthead
 name                     : "Promesis"
 description              : "Promesis 的博客."
 url                      : "https://promesis.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
