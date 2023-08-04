@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 title                    : "Promesis :)"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "务实即一切" # site tagline that appears below site title in masthead
 name                     : "Promesis"
-description              : "Promesis's blog posts."
+description              : "Promesis 的博客."
 url                      : "https://promesis.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Promesis/Promesis.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,14 +106,14 @@ analytics:
 author:
   name             : "Promesis"
   avatar           : "/assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A programmer who is toughly trying, to be more **pragmatic.**"
-  location         : "China"
+  bio              : "造就务实。"
+  location         : "中国"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
+    - label: "个人主页"
       icon: "fas fa-fw fa-link"
       url: "https://promesis.github.io"
     - label: "Twitter"
