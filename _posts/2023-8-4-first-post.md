@@ -1,4 +1,8 @@
-# my first post
+---
+related: false
+---
+
+ my first post
 
 some text.
 
