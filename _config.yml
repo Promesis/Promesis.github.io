@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 title                    : "Promesis :)"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "subtitle" # site tagline that appears below site title in masthead
 name                     : "Promesis"
 description              : "Promesis's blog posts."
 url                      : "https://promesis.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -113,7 +113,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
-    - label: "Website"
+    - label: "Blog website"
       icon: "fas fa-fw fa-link"
       url: "https://promesis.github.io"
     - label: "Twitter"
@@ -122,7 +122,7 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
+    - label: "GitHub profile"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Promesis"
     - label: "Instagram"
