@@ -8,3 +8,5 @@ main:
   #   url: /sitemap/
   - title: "所有博客"
     url: "/posts/"
+  - title: "所有类别"
+    url: "/categories/"
