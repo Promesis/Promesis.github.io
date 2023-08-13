@@ -1,7 +1,7 @@
 ---
 related: false # not related to any other posts.
 title: "对教科书中垃圾代码的批判"
-category: "随笔"
+category: "Random Walk"
 ---
 
 # 对教科书中垃圾代码的批判

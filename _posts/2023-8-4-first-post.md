@@ -1,7 +1,7 @@
 ---
 related: false # not related to any other posts.
 title: "第一篇博客"
-category: "随笔"
+category: "Random Walk"
 ---
 
 # 第一篇博客
