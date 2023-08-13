@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : ":heart: Promesis :)"
+title                    : "Promesis"
 title_separator          : "-"
 subtitle                 : "务实即一切" # site tagline that appears below site title in masthead
 name                     : "Promesis"
