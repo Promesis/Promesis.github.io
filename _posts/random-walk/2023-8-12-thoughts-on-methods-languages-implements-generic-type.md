@@ -164,7 +164,7 @@ constexpr std::tuple<VTypes...> make_tuple(Types &&...args); // C++14起
 ```
 注意：
 
-> *（摘自cppreference）* **对于每个 Types... 中的 Ti ， Vtypes... 中的对应类型 Vi 为 std::decay<Ti>::type ，除非应用 std::decay 对某些类型 X 导致 std::reference_wrapper<X> ，该情况下推导的类型为 X&。**
+> （摘自cppreference）对于每个 Types... 中的 Ti ， Vtypes... 中的对应类型 Vi 为 std::decay<Ti>::type ，除非应用 std::decay 对某些类型 X 导致 std::reference_wrapper<X> ，该情况下推导的类型为 X&。
 
 C++使用代码生成。你可以在标准库中找到大量使用模板的代码。可以说，模板便是C++标准库的基石。我并没有特指STL，而是整个标准库。读者可以自己去阅览FSF的标准库实现或者任何一个（LLVM Compiler Infrastructure，MSVC等），可以发现这句话的正确性。
 
