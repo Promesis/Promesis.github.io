@@ -1,7 +1,7 @@
 ---
 related: false # not related to any other posts.
 title: "论2023暑假最让我关注的事情"
-category: "C/C++"
+category: "C-C++"
 ---
 
 2023年的暑假，我最关注的“新闻”，竟然不是什么《今日头条》，而是[这个](https://zh.cppreference.com/w/cpp/compiler_support/20)！

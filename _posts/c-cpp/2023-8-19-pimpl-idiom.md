@@ -1,7 +1,7 @@
 ---
 related: false # not related to any other posts.
 title: "pImpl - 向用户代码隐藏实现的绝佳手段"
-category: "C/C++"
+category: "C-C++"
 ---
 
 **注意，从2023/8/19日后的所有代码，都将完全使用C++20 modules编写，一般情况下不再使用头文件的语法/句法编写。**
