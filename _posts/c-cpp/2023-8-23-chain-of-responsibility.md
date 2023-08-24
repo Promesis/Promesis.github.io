@@ -1,6 +1,6 @@
 ---
 related: false # not related to any other posts.
-title: "多个对象轮流参与的消息传递 - 责任链"
+title: "多个对象轮流参与消息传递的另一种方式 - 责任链"
 category: "C-C++"
 ---
 
@@ -147,8 +147,34 @@ int main(void)
 
 很明显，**必须有一些机制，将事件分派到正确的对象上**。三个对象的`handle`调用并没有被三个对象完全处理：后面两个对象都忽略了什么（由读者探索，很明显的）。
 
-而且要很小心，第一是，**一定要调用基类的`handle`方法**，不然事件会**丢失**。
+而且要很小心：
 
-更重要的是，**如果使用不当，会导致无限循环**。
+- 第一是，**一定要调用基类的`handle`方法**，不然事件会**丢失**。
+- 更重要的是，**如果使用不当，会导致无限循环**。
 
-待编辑，加入对上面两点的解释。
+~~待编辑，加入对上面两点的解释。~~（2023/8/24 更新）
+
+首先讲为什么要调用基类的`handle`方法。这很显然。基类的`handle`方法使得派生类在不能处理事件时可以转移给另一个注册的事件。这是一个链状结构，不能“掉链子”。
+
+然后讲为什么可能会出现无限循环。假如我故意对上面的调用代码这么改：
+
+```cpp
+int main(void)
+{
+    // oops! using lazy initialization
+    Button button;
+    Window window {&button};
+    button = Button {&window};
+
+    /*
+                +----> [window] -----+
+                |                    |
+                +----- [button] <----+
+    */
+
+    button.handle(Event::application_handlable_event);
+    return EXIT_SUCCESS;
+}
+```
+
+两个对象都不能处理`Event::application_handlable_event`，互相推责任，导致责任链重环。更可惜的是，再智能的就算是`clang-format`都不能分析出任何问题。如果你有一个责任链没有“串联”好，会漏掉事件类型，而你的“串联”方式又是通过易错的责任环，就很容易导致无限循环。
