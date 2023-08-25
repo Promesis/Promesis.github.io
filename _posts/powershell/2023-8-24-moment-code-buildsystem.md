@@ -124,7 +124,7 @@ foreach ($topic in $subdirectories)
 
 一个topic下可以包含多个item，说白了就是单个项目，所以对具有统一构建系统（哦~好爽~）的.NET项目来说，如果不需要自己提供构建脚本，那么直接`dotnet build`就可以了。但是注意：为了节省GitHub Actions的时间，并避免一些莫名其妙的bug，我把`dotnet build`变成了先`dotnet restore`后`dotnet msbuild`，并去除logo：`--nologo`，这样在GitHub Actions上的日志可以很好看（单击截图可以直接前往log页面）：
 
-[![GitHub Action Log](https://i.postimg.cc/zGq9sqKD/image.png)](https://github.com/Promesis/moment-code/actions/runs/5949541152/job/16135531297)
+<img src="https://i.postimg.cc/zGq9sqKD/image.png" alt="GitHub Action Log" width=800 height=819>
 
 那么，`build-topic.ps1`在这里（仅指.NET项目的`build-topic-ps1`）：
 
@@ -214,15 +214,16 @@ jobs:
 
 这样我就可以在每一次提交时运行CI过程（点击图片可以直接查看所有Actions）：
 
-[![GitHub Action Screenshot](https://i.postimg.cc/xjMMXzFC/image.png)](https://github.com/Promesis/moment-code/actions)
+<img src="https://i.postimg.cc/xjMMXzFC/image.png" alt="GitHub Actions Screenshot" width=1280 height=499>
 
 甚至每一次提交PR都会自动运行状态检查。这是还没有完成检查的界面：
 
-![Github Actions runs when submitting PR - not completed](https://i.postimg.cc/mDhVxgb9/image.png)
+<img src="https://i.postimg.cc/mDhVxgb9/image.png" alt="GitHub Actions runs when submitting PR - not completed" width=1153 height=521>
 
 这是检查完成后的：
 
-![GitHub Actions runs when submitting PR - completed](https://i.postimg.cc/Y94NnD3f/image.png)
+
+<img src="https://i.postimg.cc/Y94NnD3f/image.png" alt="GitHub Actions runs when submitting PR - not completed" width=1131 height=518>
 
 太爽了，完全自动化的感觉就像...~~你女朋友在你洗澡时穿着女仆装帮你搓背一样爽~~*（奇怪的比喻）*
 
