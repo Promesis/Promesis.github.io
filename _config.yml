@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Promesis"
-  avatar           : "https://i.postimg.cc/9Q5YpLGW/pink-park-round-small.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://i.postimg.cc/x8g4VMfv/black-forest-512x512.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "造就务实。"
   location         : "中国"
   email            :
@@ -197,6 +197,8 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 use_math: true # thanks to Minjeong Choi (https://choimon.github.io), I can successfully use MathJax in my site: https://choimon.github.io/blog/mathjax-for-minimalmistakes-githubpage/
+toc: true # a little treat by myself.
+
 
 # Markdown Processing
 kramdown:
