@@ -161,3 +161,7 @@ void main()
 > 在OpenGL的参考卡片中，我们可以看到内置的变量列表：
 > 
 > [![1f2c965ca18ab3498f820cbed3f224af.png](https://s1.imagehub.cc/images/2024/02/17/1f2c965ca18ab3498f820cbed3f224af.png)](https://www.imagehub.cc/image/1V5wKh)
+
+我们的输出是`gl_Position`变量，在截图中可以看到，它是一个`vec4`类型的变量。`vec4`代表的是一个包含4个分量的4维向量。之后我会讲到向量的分量，重组（swizzling）和重组的顺序。
+
+这篇博客尚未写完。敬请期待。
