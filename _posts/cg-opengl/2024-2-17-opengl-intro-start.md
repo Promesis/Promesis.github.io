@@ -5,6 +5,9 @@ category:
   - "OpenGL"
   - "Computer Graphics"
 toc: true
+
+header:
+    teaser: "https://s1.imagehub.cc/images/2024/02/18/8767c8b6713975c0774b0fdf1332b0b7.png" 
 ---
 
 接下来，我会时不时地更新关于计算机图形学的内容，全部发布在`Computer Graphics`分类之下。
