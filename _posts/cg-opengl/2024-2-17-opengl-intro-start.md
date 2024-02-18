@@ -19,7 +19,7 @@ toc: true
 
 那么问题来了，屏幕上的那么多像素，我该如何编写程序让GPU帮我绘制呢？这就是图形API的用途。OpenGL、DirectX等都是图形API，它们都定义了一套**图形渲染管线**（Graphics Pipeline）。图形渲染管线可以被理解为一个流水线，它由一系列的阶段组成，每个阶段负责不同的任务。
 
-![OpenGL管线](https://i.postimg.cc/w3KRG5j0/opengl-pipe.png)
+[![117d0c37b4f9e1e11c923f822a83ef75.png](https://s1.imagehub.cc/images/2024/02/18/117d0c37b4f9e1e11c923f822a83ef75.png)](https://www.imagehub.cc/image/1h1JKe)
 
 OpenGL管线有**固定函数阶段**和**可编程阶段**。固定函数阶段由OpenGL自身控制，不可更改。可编程阶段由开发者控制，开发者可以更改这些阶段，以实现不同的效果。可编程阶段由以下**着色器**组成：
 
@@ -125,7 +125,7 @@ std::string readFile(std::string file_name)
 
 ```
 
-这段代码使用了C++标准库中的fstream文件流库和istreambuf_iterator。首先，通过fstream类的ifstream对象file打开文件，并使用std::istreambuf_iterator将文件内容迭代器绑定到file。然后，使用std::string的构造函数将迭代器范围内的字符创建一个新的std::string对象。最后，使用std::istreambuf_iterator的析构函数释放迭代器。
+这段代码使用了C++标准库中的`fstream`文件流库和`istreambuf_iterator`。首先，通过`ifstream`对象`file`打开文件，并使用`std::istreambuf_iterator`将文件内容迭代器绑定到`file`。然后，使用`std::string`的构造函数将迭代器范围内的字符创建一个新的`std::string`对象。最后，使用`std::istreambuf_iterator`的析构函数释放迭代器。
 
 ## 顶点着色器代码
 
@@ -163,5 +163,7 @@ void main()
 > [![1f2c965ca18ab3498f820cbed3f224af.png](https://s1.imagehub.cc/images/2024/02/17/1f2c965ca18ab3498f820cbed3f224af.png)](https://www.imagehub.cc/image/1V5wKh)
 
 我们的输出是`gl_Position`变量，在截图中可以看到，它是一个`vec4`类型的变量。`vec4`代表的是一个包含4个分量的4维向量。之后我会讲到向量的分量，重组（swizzling）和重组的顺序。
+
+`gl_Position`是顶点着色器的输出，在本例中，它会被传递给片段着色器，因为我们并没有编写其他着色器。 这个输出代表着这个顶点经过处理后即将被传递给管线其余阶段的位置。`gl_Position`是`vec4`型变量，代表四分量向量，在OpenGL中，四分量向量可以代表RGBA颜色，也可以代表*齐次坐标系*中的一个点**或**向量。
 
 这篇博客尚未写完。敬请期待。
