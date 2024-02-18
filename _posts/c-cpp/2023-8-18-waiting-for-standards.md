@@ -10,15 +10,13 @@ category: "C-C++"
 
 等待Clang和GCC实现C++20的日子我实在是越来越受不了了！！！
 
-哎，像Clang这么性感的编译器，简直不敢想象当**她**完全支持C++20 modules和coroutines的美好未来。。。
+哎，像Clang这么现代的编译器，简直不敢想象当它完全支持C++20 modules和coroutines的美好未来。。。
 
-> Clang: 欧尼酱\~ Clang一直在...一直在等着你哦\~ ~~Clang为了欧尼酱，连身体都~...啊...~~
 
 甚至，Clang的Logo都这么性感：
 
 ![Clang's Logo](https://i.postimg.cc/J73w2KNz/Dragon-Full.png)
 
-> Clang: ~~ 欧尼酱\~ 啊\~\~啊\~\~ ~~
 
 相比之下，GCC的Logo就稍显逊色了。
 

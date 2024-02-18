@@ -6,9 +6,6 @@ category: "O&M"
 
 **最爱PowerShell啦！！！最性感的Shell软件！！！**
 
-哦~ 内置.NET调用~ 哦~ 面向对象的脚本组织~ 啊~啊~啊~啊~啊~啊~ 我来喽！！！
-
-> PowerShell: 想要吗？ 呐呐呐~ 可以哦~
 
 先展示[`moment-code`]的代码层次结构：
 
@@ -225,6 +222,5 @@ jobs:
 
 <img src="https://i.postimg.cc/Y94NnD3f/image.png" alt="GitHub Actions runs when submitting PR - not completed" width=1131 height=518>
 
-太爽了，完全自动化的感觉就像...~~你女朋友在你洗澡时穿着女仆装帮你搓背一样爽~~*（奇怪的比喻）*
 
 [`moment-code`]: https://github.com/Promesis/moment-code
