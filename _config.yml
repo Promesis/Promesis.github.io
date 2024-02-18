@@ -24,7 +24,7 @@ description              : "Promesis 的博客."
 url                      : "https://promesis.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Promesis/Promesis.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : https://s1.imagehub.cc/images/2024/02/18/4ecafa813e08300f81a40e6ec49926df.md.jpeg  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "https://s1.imagehub.cc/images/2024/02/18/0b378fe9d799f2534397b961408eeca1.png"  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "https://i.postimg.cc/fyMrPBNW/black-forest-256x256.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
