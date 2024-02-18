@@ -293,3 +293,5 @@ defaults:
       share: true
       related: true
       show_date: true
+      header:
+        teaser: https://s1.imagehub.cc/images/2024/02/18/4ecafa813e08300f81a40e6ec49926df.md.jpeg
