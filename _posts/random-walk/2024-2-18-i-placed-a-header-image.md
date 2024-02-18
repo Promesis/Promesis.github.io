@@ -9,3 +9,7 @@ header:
 看一眼，效果如何~
 
 这张图片将会被应用在主页中。
+
+我是看到这个视频，才想到加入主页大图的。
+
+{% include video id="BV1qM4y1w716" provider="bilibili" %}
